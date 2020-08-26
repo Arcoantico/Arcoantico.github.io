@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross | Hugo Portfolio Template"
+title = "Arco Antico"
 [[menu.main]]
 URL = "about"
 name = "About"
@@ -51,8 +51,8 @@ URL = "plugins/shuffle/shuffle.min.js"
 enable = true
 preloader = ""
 [[params.social]]
-URL = "#"
+URL = "https://www.facebook.com/arcoantico"
 icon = "ti-facebook"
 [[params.social]]
-URL = "#"
+URL = "https://www.instagram.com/arco.antico/"
 icon = "ti-instagram"
