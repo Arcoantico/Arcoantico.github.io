@@ -4,10 +4,6 @@ summaryLength = "10"
 theme = "kross-hugo"
 title = "Arco Antico"
 [[menu.main]]
-URL = "offerte"
-name = "Offerte"
-weight = 2
-[[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 4
