@@ -5,7 +5,6 @@ description: This is meta description.
 menu:
   main:
     URL: offerte
-    name: Offerte
     weight: 2
 
 ---
