@@ -9,7 +9,7 @@ name = "About"
 weight = 2
 [[menu.main]]
 URL = "offerte"
-name = "Offerte"
+name = "Blog"
 weight = 3
 [[menu.main]]
 URL = "portfolio"
