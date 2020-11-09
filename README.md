@@ -1,62 +1,94 @@
-# Kross Hugo Portfolio Forestry starter
+# Easy Setup (Hugo + Netlify + Forestry)
+Build your website with kross hugo theme by following this easy steps (No Coding Required)
 
-![Homepage](https://user-images.githubusercontent.com/37659754/58154295-1a9c5300-7c93-11e9-992c-ad8d2ff8d99f.png)
+<a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
 
-[Live Preview](http://demo.themefisher.com/kross-hugo/)
+In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code. We made this tutorial based on [meghna hugo](https://github.com/themefisher/meghna-hugo) but you can setup everithing like this.
 
-[Kross Hugo theme](https://github.com/themefisher/kross-hugo/) is developed by Themefisher.
+### What you need !!
 
-## Requirements
+1. Git acccount (Ex: Github, Gitlab etc ) . In our case we use github.
+2. [Netlify](https://bit.ly/netlify-account) account to host files and add custom domain .
+3. [Forestry](https://bit.ly/forestry-account) account to maintain whole project without code.
 
-- GitHub, GitLab or BitBucket account
-- Hugo > 0.58.0
 
-## Content Management
+### Step 1 : Fork or Clone repository
 
-![](static/images/kross-forestry.jpg)
+First we will fork this [kross hugo](https://github.com/themefisher/kross-hugo) template.
 
-[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/kross-hugo-starter&engine=hugo&version=0.64.1)
+### Step 2 : Add your repository in Forestry
 
-This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your repository in Forestry](https://app.forestry.io/quick-start?repo=forestryio/kross-hugo-starter&engine=hugo&version=0.64.1) and you'll be able to edit and preview your site ✨. \
+Go to your [forestry](https://bit.ly/forestry-account)  account and click on `import your site now`. declare your config.toml file [`exampleSite`] and fill up basic settings .
 
-Any changes you make in Forestry will be commited back to the repo, and deployed if you use [Netlify](#netlify) or [ZEIT now](#zeit-now).
+**Or just click this button for one click installation** [![import to forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/kross-hugo&engine=hugo&version=0.60.1&config=exampleSite)
 
-## Local development
+Now mark everything as done, then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
 
-```bash
-# clone the repository
-git clone git@github.com:forestryio/kross-hugo-starter.git
+### Step 3 : Setup and host website with Netlify
 
-# cd in the project directory
-cd kross-hugo-starter
+Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) account and click add new site . Choose your git repository to import your website in netlify .  And now you can see the forked `kross hugo` theme. select it and follow the steps. Then go to `site settings` for change the site name and put your subdoamin name here what you puted on forestry as base url. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url. **BOOM! Your site is live.** Now you can go to forestry and add, remove or customize every setting and content.
 
-# Start local dev server
-hugo server
+> If you face any issue regarding the installation feel free to onen [open a new issue](https://github.com/themefisher/kross-hugo/issues)
+
+
+## Table of Contents
+
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+- [Installation](#installation)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Licensing](#licensing)
+- [More Hugo Themes](https://themefisher.com/hugo-themes/)
+
+## Demo
+
+| Homepage  | About  | Blog  | Portfolio  | Contact  |
+|---|---|---|---|---|
+| ![Homepage](https://user-images.githubusercontent.com/37659754/58154295-1a9c5300-7c93-11e9-992c-ad8d2ff8d99f.png) | ![About](https://user-images.githubusercontent.com/37659754/58154317-28ea6f00-7c93-11e9-914b-b7e5f1cdab0e.png) | ![Blog](https://user-images.githubusercontent.com/37659754/58154339-369ff480-7c93-11e9-9568-53b7ebdc6b2d.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![contact](https://user-images.githubusercontent.com/37659754/58154403-57684a00-7c93-11e9-9cea-ea28253a6f6a.png) |
+
+**The images are only for demonstration purpose, Please don't use those images.**
+
+[Live Preview](http://demo.themefisher.com/kross-hugo/).
+
+## Quick Start
+Quick start options:
+
+- Clone the repo: `git clone https://github.com/themefisher/kross-hugo.git`.
+- [Download from Github](https://github.com/themefisher/kross-hugo/archive/master.zip).
+- [Download from themefisher website](https://themefisher.com/products/kross-creative-portfolio-template).
+
+## Installation
+At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
+
+```
+$ git clone git@github.com:themefisher/kross-hugo.git
+$ cd kross-hugo/exampleSite/
+$ hugo server --themesDir ../..
 ```
 
-## Deployment and hosting 
 
-### Netlify
+## Reporting Issues
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/forestryio/kross-hugo-starter)
+We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-hugo/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-hugo/issues/new)
 
-1. Set the build command to: `hugo --gc --minify`
-2. Set the publish directory to: `public`
-3. Make sure to set `HUGO_VERSION` to 0.58.0 or above (tested with 0.64.1)
-3. Set the publish directory to: `public`
+## Technical Support or Questions
 
-That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
+If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
-### ZEIT Now
+## Licensing
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/forestryio/kross-hugo-starter)
+- Copyright 2019 Themefisher (https://themefisher.com/)
+- Licensed under MIT (https://github.com/themefisher/kross-hugo/blob/master/LICENSE)
 
-Follow the steps.
 
-## Feedback
+## Premium Themes
 
-[Open an issue](https://github.com/themefisher/kross-hugo/issues) in the theme's repository.
-
-## LICENSE
-
-MIT as specified in the theme's [LICENSE](https://github.com/themefisher/kross-hugo/blob/master/LICENSE) file 
+| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Phantop](https://gethugothemes.com/wp-content/uploads/edd/2019/06/Phantom.jpg)](https://gethugothemes.com/products/phantom-hugo-theme/) | [![redlab](https://gethugothemes.com/wp-content/uploads/edd/2019/09/redlab-hugo-thumbnail.jpg)](https://gethugothemes.com/products/redlab-hugo/) |
+|:---:|:---:|:---:|
+| **Hugo Mega Bundle**  | **Phantom**  | **Red Lab**  |
+| [![northendlab](https://gethugothemes.com/wp-content/uploads/2019/11/Blogplate-Blog-Template.png)](https://gethugothemes.com/products/northendlab/) | [![Influencer](https://gethugothemes.com/wp-content/uploads/2019/11/Influencer.png)](https://gethugothemes.com/products/influencer-hugo/) | [![Vex](https://gethugothemes.com/wp-content/uploads/edd/2019/07/Vex.jpg)](https://gethugothemes.com/products/vex-hugo-theme/) |
+| **Northendlab** | **Influencer** | **Vex** |
+| [![Timer](https://gethugothemes.com/wp-content/uploads/edd/2019/07/Timer.jpg)](https://gethugothemes.com/products/timer-hugo-theme/) | [![Parsa](https://gethugothemes.com/wp-content/uploads/edd/2019/07/parsa-768x576.jpg)](https://gethugothemes.com/products/parsa-hugo-theme/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
+| **Timer** | **Parsa** | **More Hugo Themes** |

@@ -1,0 +1,75 @@
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <a href="mailto:{{.Site.Params.email}}">{{.Site.Params.email}}</a>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <a href="tel:{{.Site.Params.phone}}">{{.Site.Params.phone}}</a>
+        </div>
+        <!-- gooogle maps-->
+        <div class="col-md-4">
+        <h5 class="text-light">Dove Siamo</h5>
+        <style>
+            /* Set the size of the div element that contains the map */
+          #map {
+            height: 200px;  /* The height is 400 pixels */
+            width: 200px;  /* The width is the width of the web page */
+            }
+        </style>
+        <!--The div element for the map -->
+        <div id="map"></div>
+        <script>
+      // Initialize and add the map
+        function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 38.102250, lng: 13.327540};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 16, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
+          </script>
+          <script defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1wTjojZ0K0LbCdnhbpnjWaUfsE05q_fA&callback=initMap">
+          </script>
+          </div>
+        </div>
+          
+          <!-- /gooogle maps-->
+
+          <!-- 
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address}}</p>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- /footer -->
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .URL | absURL }}"></script>
+{{ end }}
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+{{ "<!-- google analitycs -->" | safeHTML }}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '{{ .Site.Params.google_analitycs_id }}', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
