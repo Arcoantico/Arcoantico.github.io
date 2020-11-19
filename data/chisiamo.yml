@@ -33,6 +33,6 @@ clients_logo_slider:
   title: Our Clients
 menu:
   main:
-    URL: chisiamo
+    URL: about
     name: Chi siamo
     weight: 1
