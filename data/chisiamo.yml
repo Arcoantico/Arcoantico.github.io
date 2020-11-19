@@ -35,4 +35,4 @@ menu:
   main:
     URL: chisiamo
     name: Chi siamo
-    weight: 1
+    weight: "2"
