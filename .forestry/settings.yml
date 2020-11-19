@@ -17,8 +17,8 @@ sections:
   templates:
   - post
 - type: directory
-  path: content/about
-  label: About
+  path: content/chisiamo
+  label: Chi siamo
   create: none
   match: "*"
 - type: directory
