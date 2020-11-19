@@ -18,7 +18,7 @@ sections:
   - post
 - type: directory
   path: content/chisiamo
-  label: Chi siamo
+  label: About
   create: none
   match: "*"
 - type: directory
