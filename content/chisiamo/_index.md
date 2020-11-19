@@ -5,6 +5,7 @@ description: This is meta description.
 author_image: images/about/author.jpg
 menu:
   main:
+    URL: chisiamo
     weight: 2
 
 ---
