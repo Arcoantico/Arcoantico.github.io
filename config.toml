@@ -4,8 +4,8 @@ summaryLength = "10"
 theme = "kross-hugo"
 title = "Arco Antico"
 [[menu.main]]
-URL = "about"
-name = "About"
+URL = "chiediamo"
+name = "Chi siamo"
 weight = 1
 [params]
 address = "Corso Calatafimi 771, Palermo"
