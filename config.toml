@@ -3,6 +3,13 @@ languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
 title = "Arco Antico"
+<<<<<<< HEAD
+=======
+[[menu.main]]
+URL = "chisiamo"
+name = "Chi siamo"
+weight = 1
+>>>>>>> parent of 7036535... Update from Forestry.io
 [params]
 address = "Corso Calatafimi 771, Palermo"
 author = ""
