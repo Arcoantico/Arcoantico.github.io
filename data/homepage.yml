@@ -3,15 +3,11 @@ banner:
   title: Arco <br> Antico
 about:
   enable: true
-  content: Benvenuto nella pagina dell'Arco Antico. sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur.
+  content: Benvenuto sul sito di Arco Antico. Da qui potrai visionare le nostre offerte, menù e la carta dei vini. Ordina comodamente da casa tua tramite Uber Eats
   button:
     enable: true
-    label: know more
-    URL: about
+    label: Know more
+    URL: chisiamo
 skill:
   enable: false
   title: Skills
@@ -69,12 +65,12 @@ service:
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     highlighted: false
-  - title: Cocktail Bar
+  - title: Bistrot
     icon: ti-food
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     highlighted: true
-  - title: Aperitivi
+  - title: Enoteca
     icon: ti-nonloso
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.

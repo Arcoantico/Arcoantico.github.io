@@ -9,9 +9,13 @@ menu:
     weight: 2
 
 ---
-L'Arco Antico nasce nel lontano 1981 come market di generi alimentari e salumeria, sotto la gestione di Antonino La Venia. Nel corso degli anni è stato rinnovato più e più volte, ponendo attenzione sempre maggiore sulla ristorazione e l'accoglienza, promettendo l'uso di soli ingredienti freschi e di qualità.
+Arco Antico nasce nel 1981 come minimarket, negli anni evolve ed amplia la sua cantina di vini collezionando più di 300 etichette del territorio.
 
+Parallelamente sviluppa il lato gastronomico facendo degli aperitivi il suo punto di forza. Una cucina gourmet che valorizza la tradizione e i prodotti locali per un viaggio di sapori nella cucina siciliana e non. 
 
-La gestione è poi passata ai figli,  Alessandro e Michele La Venia, che ad oggi vantano:
+Numerosi sono infatti i birrifici artigianali siciliani che potrete trovare all'interno del nostro locale. Bruno Ribadi, Kymiya, Strammusa e tanti altri.. 
 
-l'enoteca con più di mille bottiglie di vini e spumanti, il banco salumeria d'eccellenza che promette affettati freschi tutti i giorni, gastronomia preparata giorno per giorno, il tutto accompagnato da un buon calice (o cocktail), buona musica in un ambiente accogliente e formale.
+Per gli amanti del buon bere non possono mancare i migliori distillati in commercio selezionati per la nostra linea di cocktail premium. Hendrick's, Belvedere, Beluga, Tanqueray ma anche distillati artigianali come Ionico, Volcano, Emporia e tanti altri.. 
+Da noi puoi trovare un cocktail per ogni momento della giornata 
+
+Infine siamo costantemente in cerca di novità, per proporre ai nostri clienti la migliore esperienza di food and drink che possiamo offrire. Dagli Arco Burger ai Pokè passando per il sushi, il nostro menù è costantemente aggiornato con le migliori novità culinarie
